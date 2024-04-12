@@ -3,7 +3,7 @@ Key-based Encryption & Decryption Library
 
 ## Installation
 ```shell
-luarocks install pixCrypt
+luarocks install pixcrypt
 ```
 
 ## License
