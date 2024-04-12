@@ -5,7 +5,7 @@ source = {
 }
 description = {
    summary = "Key-based Encryption & Decryption Library",
-   detailed = "Key-based Encryption & Decryption Library",
+   detailed = "This module allows you to encrypt and decrypt the necessary data using a key.",
    homepage = "https://github.com/ttwizz/pixCrypt",
    license = "MIT"
 }
