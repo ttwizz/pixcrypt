@@ -1,4 +1,4 @@
-# pixCrypt
+# pixcrypt
 Key-based Encryption & Decryption Library
 
 ## Installation
