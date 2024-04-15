@@ -9,7 +9,7 @@
 ]]
 
 
-local pixcrypt = { Secret = 2773480762 }
+local pixcrypt = {Secret = 2773480762}
 
 
 function pixcrypt:Encrypt(Key, String)
@@ -17,8 +17,8 @@ function pixcrypt:Encrypt(Key, String)
     assert(type(String) == "string", "Argument 2 (String) must be a string")
 
     local Summand = #Key + math.pi * 4.3579
-    local Index = 1
     local Result = ""
+    local Index = 1
 
     for Character in string.gmatch(Key, ".") do
         Summand = Summand + string.byte(Character) / 1.8602
@@ -37,8 +37,8 @@ function pixcrypt:Decrypt(Key, String)
     assert(type(String) == "string", "Argument 2 (String) must be a string")
 
     local Summand = #Key + math.pi * 4.3579
-    local Index = 1
     local Result = ""
+    local Index = 1
 
     for Character in string.gmatch(Key, ".") do
         Summand = Summand + string.byte(Character) / 1.8602

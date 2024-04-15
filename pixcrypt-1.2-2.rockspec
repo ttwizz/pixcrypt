@@ -1,5 +1,5 @@
 package = "pixcrypt"
-version = "1.2-1"
+version = "1.2-2"
 source = {
    url = "git+https://github.com/ttwizz/pixcrypt.git"
 }
