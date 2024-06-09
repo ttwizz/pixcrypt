@@ -1,7 +1,7 @@
 --[[
     pixcrypt
     Key-based Encryption & Decryption Library
-    ttwizz.su/pix
+    twix.cyou/pix
 
     Author: ttwiz_z (ttwizz)
     License: MIT
